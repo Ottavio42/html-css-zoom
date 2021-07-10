@@ -37,6 +37,7 @@ main{
 }
 .colonnacen .img-spettatore{
     width: calc(20% - 5px);
+    height:calc(20% - 5px) ;
     margin: 2.5px;
 }
 footer{
