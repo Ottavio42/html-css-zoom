@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #1a1a1a;
+}
+header{
+    height: 4.50%;
+    display: flex;
+    justify-content: space-between;
+}
+.headerdx1,.headerdx2,.headersx{
+    display:inline;
+    background-color: #101010;
+    margin: 5px;
+}
+.headerdx1{
+    color: #1ea245;
+}
+.headerdx2,.headersx{
+    color: #a4aaaa;
+}
+main{
+    height: 91%;
+    display: flex;
+}
+.colonnasx,.colonnadx{
+    width: 9%;
+}
+.colonnacen{
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colonnacen .img-spettatore{
+    width: calc(20% - 5px);
+    margin: 2.5px;
+}
+footer{
+    height: 4.5%;
+}
