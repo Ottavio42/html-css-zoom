@@ -24,7 +24,7 @@ header{
     color: #a4aaaa;
 }
 main{
-    height: 91%;
+    height: 89%;
     display: flex;
 }
 .colonnasx,.colonnadx{
@@ -39,7 +39,87 @@ main{
     width: calc(20% - 5px);
     height:calc(20% - 5px) ;
     margin: 2.5px;
+    position: relative;
+}
+.img-spettatore span{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    color: #a4aaaa;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 70%;
+
+}
+.img-spettatore img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.img-spettatore i{
+    color: red;
 }
 footer{
-    height: 4.5%;
+    background-color: #222426;
+    height: 6.5%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #a4aaaa;
+    font-weight: bold;
+}
+.footerdx{
+    align-self: center;
+}
+
+footer div a{
+    padding: 0 15px;
+    background-color: red;
+    color: #a4aaaa;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+}
+.fa-angle-up{
+    font-size: 8px;
+    margin-left: 10px;
+
+}
+.icona{
+    font-size: 22px;
+}
+.footersx div span, .footercen div span{
+    font-size: 11px;
+}
+.footersx,.footercen{
+    display: flex;
+}
+.footersx div, .footercen div{
+    margin-right: 10px;
+}
+.icona-numerata{
+    position: relative;
+}
+.icona-numerata span{
+    font-size: 6px;
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
+.box-icona-verde{
+    color: #23df5b;
+}
+.icone-no-space{
+    font-size: 22px;
+    text-align: center;
+}
+.riga-icona, {
+    text-align: center;
+}
+.box-icona{
+    padding-right: 40px;
 }
